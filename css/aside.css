@@ -1,0 +1,91 @@
+.aside {
+    max-width: 33%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.aside_image {
+    width: 100%;
+}
+
+.visit_form {
+    color: var(--brown);
+    background-color: var(--light-gray);
+    padding: 1em;
+}
+
+.h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.visit_form form {
+
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+    width: 100%;
+}
+
+.visit_form fieldset {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.visit_form fieldset div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+}
+
+.visit_form_input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #818181;
+    font: .9em 'Nunito';
+    text-align: center;
+}
+
+.visit_form_input_qtd {
+    width: 30%;
+    background-color: aliceblue;
+    border: none;
+}
+
+.visit_form_button {
+    font: 1.1em 'Nunito';
+    font-weight: 600;
+    border: none;
+    padding: .8em 0;
+    cursor: pointer;
+}
+
+.image_gallery {
+    color: var(--orange);
+    padding: 1em;
+    background: var(--light-gray);
+}
+
+.image_gallery div {
+    display: flex;
+    padding-bottom: 1em;
+    flex-wrap: wrap;
+    gap: .8em;
+    justify-content: center;
+}
+
+.image_gallery div img {
+    width: 40%;
+}
+
+legend {
+    padding: 0 5px;
+}

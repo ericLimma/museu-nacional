@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Nacional | Home</title>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap"
+        rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main_content.css">
+    <link rel="stylesheet" href="./css/aside.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="index.html"><img class="logo" src="./img/logo.png" alt="Logo museu nacional"></a>
+            </div>
+            <ul class="nav_ul">
+                <li><a class="header_link" href="#">Home</a></li>
+                <li><a class="header_link" href="#">Exposições</a></li>
+                <li><a class="header_link" href="#">Pesquisa</a></li>
+                <li><a class="header_link" href="#">Acervo</a></li>
+                <li><a class="header_link" href="#">Vídeos</a></li>
+                <li><a class="header_link" href="#">Fotos</a></li>
+                <li><a class="header_link" href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <div class="content">
+            <section>
+                <img class="main_image" src="./img/museu.png" alt="imagem do museu">
+            </section>
+            <section class="postagens">
+                <div class="video">
+                    <h3 class="posts_title">Vídeo: Conheça o Museu</h3>
+                    <iframe src="https://www.youtube.com/embed/adRCL1OMe3o?si=0EY0GMhDP4rFXnkL"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="map">
+                    <h3 class="posts_title">Mapa: encontre o museu</h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.206311821341!2d-43.22910382468973!3d-22.9057599792558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997e58a085b7af%3A0x4d11e9a933d38ce3!2sMuseu%20Nacional%20-%20UFRJ!5e0!3m2!1spt-BR!2sbr!4v1693166271827!5m2!1spt-BR!2sbr"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="exhibitions">
+                    <h3 class="posts_title">Exposições</h3>
+                    <ul class="exhibitions_list">
+                        <li>Renascença Reimaginada: Obras-Primas Clássicas em Um Novo Contexto</li>
+                        <li>"Sons do Passado: Uma Jornada Musical Através dos Séculos"</li>
+                        <li>"Vislumbres do Império: Arte e Cultura no Auge das Civilizações"</li>
+                        <li>"Natureza em Foco: Explorando a Beleza e a Diversidade do Mundo Natural"</li>
+                        <li>"Além do Horizonte: Explorações e Descobertas Que Moldaram o Mundo"</li>
+                        <li>"Pinturas da Alma: Expressões Artísticas da Emoção Humana"</li>
+
+                    </ul>
+                    <a class="posts_link" href="./links/exposicoes.html">ver mais (66)</a>
+                </div>
+                <div class="history">
+                    <div class="history_content">
+                        <h3 class="posts_title">História</h3>
+                        <p>Há muitos anos, em um canto tranquilo de uma cidade histórica, surgiu um edifício majestoso que logo se tornaria conhecido como o "Museu das Maravilhas Perdidas". O museu, fundado por um colecionador apaixonado por história e arte, rapidamente se tornou um ponto de referência na comunidade e além.</p>
+                    </div>
+
+                    <a class="posts_link" href="./links/historia.html">Leia Mais</a>
+                </div>
+            </section>
+        </div>
+        <aside class="aside">
+            <section>
+                <img class="aside_image" src="./img/depoimento.png" alt="imagem depoimento">
+            </section>
+            <section class="visit_form">
+                <h3 class="h3">Faça uma visita</h3>
+                <form>
+                    <fieldset>
+                        <legend>Selecione uma data</legend>
+                        <div>
+                            <label for="date">Data: </label>
+                            <input class="visit_form_input" id="date" type="date">
+                        </div>
+
+                        <div>
+                            <label for="quantity">Quantidade: </label>
+                            <input class="visit_form_input visit_form_input_qtd" id="quantity" type="text" value="1">
+                        </div>
+                    </fieldset>
+                    <button class="visit_form_button">Verificar Disponibilidade</button>
+                </form>
+            </section>
+            <section class="image_gallery">
+                <h3 class="h3">Galeria de Imagens</h3>
+                <div>
+                    <img src="./img/imagem1.jpg" alt="">
+                    <img src="./img/imagem2.jpg" alt="">
+                    <img src="./img/imagem3.jpg" alt="">
+                    <img src="./img/imagem4.jpg" alt="">
+                </div>
+            </section>
+        </aside>
+
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer_img"><img src="../img/logo.png" alt=""></div>
+            <p>&copy; 2023 Museu das Maravilhas Perdidas. Todos os direitos reservados.</p>
+            <nav class="footer-nav">
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos de Uso</a>
+                <a href="#">Contato</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

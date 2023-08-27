@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --orange:#996f23;
+    --brown:#29271e;
+    --light-gray:#c7c7c5;
+    --orange-hover:#6d501a;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f4f2ec;
+    font-size: 18px;
+
+}
